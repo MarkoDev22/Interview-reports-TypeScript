@@ -49,3 +49,7 @@ It allows users to schedule maintenance for their motorcycles, service technicia
 ```bash
 git clone https://github.com/<your-username>/moto-service-app.git
 cd moto-service-app
+
+
+cd client
+npm install
