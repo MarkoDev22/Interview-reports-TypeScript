@@ -6,7 +6,7 @@ It allows users to schedule maintenance for their motorcycles, service technicia
 # Features
 
 
-# User
+## User
 Register and log in
 
 View available motorcycle brands and services
@@ -18,7 +18,7 @@ View and cancel booked appointments
 Receive notifications for appointment updates or cancellations
 
 
-# Service Technician (Manager)
+## Service Technician (Manager)
 
 View all appointments for their assigned motorcycle brand
 
@@ -27,7 +27,7 @@ Confirm completed services
 Cancel appointments (with automatic user notifications)
 
 
-# Administrator
+## Administrator
 
 Manage users and service technicians
 
