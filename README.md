@@ -37,8 +37,8 @@ View appointments per user or technician
 
 Add new motorcycle brands and service types
 
-# Tech Stack 
-# Frontend
+
+## Frontend
 React + TypeScript
 
 Ant Design (UI library)
@@ -47,7 +47,7 @@ MobX (state management)
 
 Axios (API communication)
 
-##Backend
+## Backend
 Node.js + Express
 
 MongoDB + Mongoose
