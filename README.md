@@ -1,57 +1,51 @@
-# Moto Service App
+# 🏍️ Moto Service App
 
-A full-stack web application for managing motorcycle service appointments.
+A **full-stack web application** for managing motorcycle service appointments.  
 It allows users to schedule maintenance for their motorcycles, service technicians to manage appointments by brand, and administrators to manage users, service technicians, and services.
 
-# Features
+---
 
+## 🚀 Features
 
-## User
-Register and log in
+### 👤 User
+- Register and log in  
+- View available motorcycle brands and services  
+- Schedule one or more services in a single appointment  
+- View and cancel booked appointments  
+- Receive notifications for appointment updates or cancellations  
 
-View available motorcycle brands and services
+### 🔧 Service Technician (Manager)
+- View all appointments for their assigned motorcycle brand  
+- Confirm completed services  
+- Cancel appointments (with automatic user notifications)  
 
-Schedule one or more services in a single appointment
+### 🛠️ Administrator
+- Manage users and service technicians  
+- Add, edit, and delete accounts  
+- View appointments per user or technician  
+- Add new motorcycle brands and service types  
 
-View and cancel booked appointments
+---
 
-Receive notifications for appointment updates or cancellations
+## 🧰 Tech Stack
 
+### 🖥️ Frontend (React + TypeScript)
+- **React** + **TypeScript**  
+- **Ant Design** (UI library)  
+- **MobX** (state management)  
+- **Axios** (API communication)  
 
-## Service Technician (Manager)
+### ⚙️ Backend (Node.js + Express)
+- **Node.js** + **Express**  
+- **MongoDB** + **Mongoose**  
+- **bcrypt** (password hashing)  
+- **JWT** (authentication)  
 
-View all appointments for their assigned motorcycle brand
+---
 
-Confirm completed services
+## ⚙️ Setup Instructions
 
-Cancel appointments (with automatic user notifications)
-
-
-## Administrator
-
-Manage users and service technicians
-
-Add, edit, and delete accounts
-
-View appointments per user or technician
-
-Add new motorcycle brands and service types
-
-
-## Frontend
-React + TypeScript
-
-Ant Design (UI library)
-
-MobX (state management)
-
-Axios (API communication)
-
-## Backend
-Node.js + Express
-
-MongoDB + Mongoose
-
-bcrypt (password hashing)
-
-JWT (authentication)
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/<your-username>/moto-service-app.git
+cd moto-service-app
