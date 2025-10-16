@@ -3,7 +3,7 @@
 A full-stack web application for managing motorcycle service appointments.
 It allows users to schedule maintenance for their motorcycles, service technicians to manage appointments by brand, and administrators to manage users, service technicians, and services.
 
-## Features
+# Features
 
 
 # User
