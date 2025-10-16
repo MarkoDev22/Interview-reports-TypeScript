@@ -45,13 +45,17 @@ It allows users to schedule maintenance for their motorcycles, service technicia
 
 ## ⚙️ Setup Instructions
 
-### 1 Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/<your-username>/moto-service-app.git
 cd moto-service-app
-
-
-### 2 Frontend
+```
+### Install dependecies
+#### Frontend
 ```bash
 cd client
 npm install
+```
+
+
+
