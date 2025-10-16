@@ -1,54 +1,57 @@
-# React + TypeScript + Vite
+# Moto Service App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for managing motorcycle service appointments.
+It allows users to schedule maintenance for their motorcycles, service technicians to manage appointments by brand, and administrators to manage users, service technicians, and services.
 
-Currently, two official plugins are available:
+##Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+##User
+Register and log in
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+View available motorcycle brands and services
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Schedule one or more services in a single appointment
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+View and cancel booked appointments
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Receive notifications for appointment updates or cancellations
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+##Service Technician (Manager)
+
+View all appointments for their assigned motorcycle brand
+
+Confirm completed services
+
+Cancel appointments (with automatic user notifications)
+
+
+###Administrator
+
+Manage users and service technicians
+
+Add, edit, and delete accounts
+
+View appointments per user or technician
+
+Add new motorcycle brands and service types
+
+##Tech Stack 
+#Frontend
+React + TypeScript
+
+Ant Design (UI library)
+
+MobX (state management)
+
+Axios (API communication)
+
+##Backend
+Node.js + Express
+
+MongoDB + Mongoose
+
+bcrypt (password hashing)
+
+JWT (authentication)
