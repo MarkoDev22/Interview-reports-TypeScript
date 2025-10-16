@@ -45,12 +45,12 @@ It allows users to schedule maintenance for their motorcycles, service technicia
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repository
+### 1 Clone the repository
 ```bash
 git clone https://github.com/<your-username>/moto-service-app.git
 cd moto-service-app
 ```
-### Install dependecies
+### 2 Install dependecies
 #### Frontend
 ```bash
 cd client
@@ -62,4 +62,24 @@ npm install
 cd ../server
 npm install
 ```
+## 3 Configure environment variables
+Create .env file inside server folder and add:
+```bash
+PORT=5000
+MONGO_URI=<your_mongo_connection_string>
+JWT_SECRET=<your_secret_key>
+```
+## Run application 
+Start backend
+```bash
+cd server
+npm run dev
+```
+Start frontend
+```bash
+cd ../client
+npm run dev
+```
+Frontend: http://localhost:5173
 
+Backend: http://localhost:5000
