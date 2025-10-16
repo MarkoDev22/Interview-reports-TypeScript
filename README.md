@@ -3,7 +3,7 @@
 A full-stack web application for managing motorcycle service appointments.
 It allows users to schedule maintenance for their motorcycles, service technicians to manage appointments by brand, and administrators to manage users, service technicians, and services.
 
-# Features
+## Features
 
 
 # User
@@ -18,7 +18,7 @@ View and cancel booked appointments
 Receive notifications for appointment updates or cancellations
 
 
-## Service Technician (Manager)
+# Service Technician (Manager)
 
 View all appointments for their assigned motorcycle brand
 
@@ -27,7 +27,7 @@ Confirm completed services
 Cancel appointments (with automatic user notifications)
 
 
-## Administrator
+# Administrator
 
 Manage users and service technicians
 
@@ -37,7 +37,7 @@ View appointments per user or technician
 
 Add new motorcycle brands and service types
 
-## Tech Stack 
+# Tech Stack 
 # Frontend
 React + TypeScript
 
